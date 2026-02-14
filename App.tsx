@@ -175,6 +175,14 @@ const App: React.FC = () => {
         <div className="absolute top-16 left-0 right-0 h-[3px] bg-white/5 z-[60]">
            <div className="h-full bg-red-600 transition-all duration-1000 ease-in-out shadow-[0_0_15px_rgba(239,68,68,0.7)]" style={{ width: `${((currentSlideIndex + 1) / total) * 100}%` }} />
         </div>
+
+        {/* Footer Latin Theological Seminary */}
+        <footer className="h-10 bg-[#0a0a0a] border-t border-white/5 flex items-center justify-center px-6 z-50 shrink-0">
+          <div className="flex items-center gap-3">
+             <img src="https://cdn.myportfolio.com/d435fa58-d32c-4141-8a15-0f2bfccdea41/1ac05fb8-e508-4c03-b550-d2b907caadbd_rw_600.png?h=7572d326e4292f32557ac73606fd0ece" alt="LTS Logo" className="h-5 w-auto" />
+             <span className="text-[10px] font-black uppercase tracking-[0.4em] text-white/40">Latin Theological Seminary</span>
+          </div>
+        </footer>
       </main>
     </div>
   );
